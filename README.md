@@ -1,7 +1,7 @@
 # Affordable-Electronoics-Store
 
-
-FUNCTIONS:
+<br>
+FUNCTIONS:<br>
 <b>1. Customer </b>
 <br>
 •	Customer can view/search products without login.<br>
@@ -15,7 +15,7 @@ FUNCTIONS:
 •	Customer can Download their order invoice for each order<br>
 •	Customer can send feedback to admin (without login)<br>
 <br>
-<b>2. Admin,</b><br>
+<b>2. Admin</b><br>
 •	First admin will login ( for username/password run following command in cmd )<br>
 •	py manage.py createsuperuser<br>
 •	Give username, email, password and your admin account will be created.<br>
@@ -31,30 +31,30 @@ FUNCTIONS:
 •	suppose 1 customer places 4 products order and admin deleted 2 product from website, <br>then that 2 product order will also be deleted and other 2 will be their<br>
 •	If user click on purchase button without having products in their cart, then website will ask to add product in cart first.<br><br>
 
-HOW TO RUN THIS PROJECT<br>
+#HOW TO RUN THIS PROJECT<br>
 Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)<br>
 Open Terminal and Execute Following Commands :<br>
 pip install django==3.0.5<br>
 pip install django-widget-tweaks<br>
 pip install xhtml2pdf<br>
 <br>
-Download This Project Zip Folder and Extract it<br>
+#Download This Project Zip Folder and Extract it<br>
 Move to project folder in Terminal. Then run following Commands :<br>
-
 py manage.py makemigrations<br>
 py manage.py migrate<br>
 py manage.py runserver<br><br>
 
-Now enter following URL in Your Browser Installed On Your Pc<br>
+#Now enter following URL in Your Browser Installed On Your Pc<br>
 http://127.0.0.1:8000/<br>
 <br>
-CHANGES REQUIRED FOR CONTACT US PAGE<br>
+
+#CHANGES REQUIRED FOR CONTACT US PAGE<br>
 In settins.py file, You have to give your email and password:<br>
 EMAIL_HOST_USER = 'youremail@gmail.com'<br>
 EMAIL_HOST_PASSWORD = 'your email password'<br>
 EMAIL_RECEIVING_USER = 'youremail@gmail.com'<br><br>
 
-Login to gmail through host email id in your browser and open following link and turn it ON<br>
+#Login to gmail through host email id in your browser and open following link and turn it ON<br>
 https://myaccount.google.com/lesssecureapps<br>
 <br>
 <b>Drawbacks/LoopHoles:<b><br>
